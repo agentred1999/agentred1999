@@ -61,11 +61,9 @@ React app built against a Firebase Cloud Functions API — dynamic carousels, co
 </p>
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=agentred1999&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=39FF14&currStreakNum=39FF14&sideNums=39FF14&dates=39FF14"/>
 </p>
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=agentred1999&theme=matrix&column=4&margin-w=8&margin-h=8"/>
 </p>
 
 <p align="center">
