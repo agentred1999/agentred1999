@@ -55,8 +55,5 @@ React app built against a Firebase Cloud Functions API — dynamic carousels, co
 
 ## 💡 Favorite Quote
 
-> "Code is not just about making computers work —
-> it's about creating solutions that make life better."
-
-— Richard Dean
-
+> "Slow is smooth, smooth is fast"
+> 
