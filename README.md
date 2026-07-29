@@ -53,25 +53,6 @@ A real cybersecurity brand I founded — pentesting hardware and hacker merch, w
 ### 🖼 NFT Marketplace
 React app built against a Firebase Cloud Functions API — dynamic carousels, countdown timers, localStorage-backed follow state, deployed on GitHub Pages.
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-</p>
-
-<p align="center">
-</p>
-
-<p align="center">
-</p>
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=agentred1999&color=00FF41&style=flat"/>
-</p>
-
----
-
 ## 💡 Favorite Quote
 
 > "Code is not just about making computers work —
