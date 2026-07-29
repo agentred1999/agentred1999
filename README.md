@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Richard Dean
+# Hi there, I'm Richard Dean
 
 ### 💻 Full-Stack Web Developer | Linux Enthusiast | AI Explorer
 
