@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.svg" alt="matrix banner" width="100%"/>
+</p>
+
 <h1 align="center">Hi 👋, I'm Richard Dean</h1>
 <h3 align="center">
 Full-Stack Developer • Linux Power User • Cybersecurity Explorer
