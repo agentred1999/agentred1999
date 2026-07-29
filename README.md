@@ -58,8 +58,6 @@ React app built against a Firebase Cloud Functions API — dynamic carousels, co
 ## 📊 GitHub Stats
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=agentred1999&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=39FF14&border_color=00FF41"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=agentred1999&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39FF14&border_color=00FF41"/>
 </p>
 
 <p align="center">
