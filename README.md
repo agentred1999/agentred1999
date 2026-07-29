@@ -1,5 +1,5 @@
 <p align="center">
-<img src="banner.svg" alt="matrix banner" width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/agentred1999/agentred1999@main/banner.svg" alt="matrix banner" width="100%"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm Richard Dean</h1>
