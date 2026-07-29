@@ -80,3 +80,4 @@ React app built against a Firebase Cloud Functions API — dynamic carousels, co
 > it's about creating solutions that make life better."
 
 — Richard Dean
+
