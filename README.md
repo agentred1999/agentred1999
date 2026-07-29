@@ -1,68 +1,80 @@
-# Hi there, I'm Richard Dean
+<h1 align="center">Hi 👋, I'm Richard Dean</h1>
+<h3 align="center">
+Full-Stack Developer • Linux Power User • Cybersecurity Explorer
+</h3>
 
-### 💻 Full-Stack Web Developer | Linux Enthusiast | AI Explorer
+<p align="center">
+Building practical software, one terminal window at a time.
+</p>
 
-I'm a developer who enjoys turning ideas into practical, user-friendly applications. I have a passion for building clean, maintainable software while continuously learning modern technologies and best practices.
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Linux+%2F+Ubuntu+Power+User;Building+1337+Wing;Next.js+%2B+TypeScript+%2B+Firebase;Always+Learning+Something+New;Welcome+to+my+GitHub!" />
+</p>
 
 ---
 
 ## 🚀 About Me
 
-- 💻 Passionate about **Full-Stack Web Development**
-- ☁️ Exploring **Cloud Computing**, **DevOps**, and **Artificial Intelligence**
-- 🌱 Always learning new frameworks, languages, and software architecture
-- 🔨 Love building open-source projects and experimenting with new ideas
-- 🐧 Daily Linux user who enjoys automation, scripting, and self-hosting
-- 🧩 I enjoy solving challenging programming problems and designing intuitive user experiences
-- 🤝 Open to collaborating on interesting open-source and community projects
+I'm a self-driven developer who builds practical, user-facing software — from AI-powered web apps to a real cybersecurity hardware brand I run myself, [1337 Wing](https://agentred1999.github.io/1337-Wing).
+
+Based in the Houston area, I work with a terminal-first, Linux-native workflow. Most of what I ship goes through the same loop: build it, break it, fix it, ship it — clean code and a working product matter more to me than shortcuts.
+
+- 💻 Full-stack development — Next.js, React, TypeScript, Firebase, Redux
+- 🐧 Daily Ubuntu user — scripting, automation, self-hosting, terminal-first workflow
+- 🔐 Founder of **1337 Wing** — cybersecurity-themed pentesting hardware & merch
+- 📡 Mesh networking / Meshtastic tinkerer
+- 🌱 Currently exploring AI-powered tooling and agentic dev workflows
 
 ---
 
-## 🛠️ Interests
+## 💻 Tech Stack
 
-- Front-End Development
-- Back-End Development
-- REST APIs
-- Linux & Open Source
-- Cloud Technologies
-- Artificial Intelligence
-- Software Engineering
-- Performance Optimization
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,linux,bash,git,github,vscode,firebase,docker&theme=dark" />
+</p>
 
 ---
 
-## 📖 Philosophy
+## 🚀 Featured Projects
 
-> **"Code is not just about making computers work—it's about creating solutions that make life better."**
+### 🧴 Skinstric AI Clone (`skin-ai`)
+Next.js 15 / TypeScript rebuild of an AI skincare analysis flow — camera capture, gallery upload, live API-driven demographic analysis, full mobile-responsive UI.
 
-I believe great software combines thoughtful design, reliable engineering, and continuous improvement. Every project is an opportunity to learn something new.
+### 📚 Summarist
+Blinkist-style book summary app — Next.js App Router, Firebase Auth, Firestore, Redux Toolkit, and Stripe subscriptions end-to-end.
 
----
+### 🔐 1337 Wing
+A real cybersecurity brand I founded — pentesting hardware and hacker merch, with a full React/Vite storefront including a live HackerNews intel feed.
 
-## 📚 Currently Learning
-
-- Modern Full-Stack Frameworks
-- Cloud Infrastructure
-- AI Integration
-- Software Architecture
-- Clean Code & Design Patterns
+### 🖼 NFT Marketplace
+React app built against a Firebase Cloud Functions API — dynamic carousels, countdown timers, localStorage-backed follow state, deployed on GitHub Pages.
 
 ---
 
-## 🌍 Location
+## 📊 GitHub Stats
 
-📍 Houston, Texas
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=agentred1999&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=39FF14&border_color=00FF41"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=agentred1999&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39FF14&border_color=00FF41"/>
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=agentred1999&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=39FF14&currStreakNum=39FF14&sideNums=39FF14&dates=39FF14"/>
+</p>
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=agentred1999&theme=matrix&column=4&margin-w=8&margin-h=8"/>
+</p>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=agentred1999&color=00FF41&style=flat"/>
+</p>
 
 ---
 
-## 📫 Contact
+## 💡 Favorite Quote
 
-- 📧 **Email:** redhat1999@mailfence.com
+> "Code is not just about making computers work —
+> it's about creating solutions that make life better."
 
----
-
-## ⭐ Thanks for Visiting!
-
-If you enjoy my projects or want to collaborate, feel free to explore my repositories or get in touch.
-
-Happy coding! 🚀
+— Richard Dean
