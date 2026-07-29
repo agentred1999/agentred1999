@@ -4,7 +4,7 @@
 
 <h1 align="center">Hi 👋, I'm Richard Dean</h1>
 <h3 align="center">
-Full-Stack Developer • Linux Power User • Aspiring Pentester
+Software Developer • Linux Power User • Aspiring Pentester
 </h3>
 
 <p align="center">
