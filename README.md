@@ -1,28 +1,68 @@
+# Hi there 👋 I'm Richard Dean
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is Richard Dean
-=====================================================================================================================================
+### 💻 Full-Stack Web Developer | Linux Enthusiast | AI Explorer
 
-Web Developer
--------------
+I'm a developer who enjoys turning ideas into practical, user-friendly applications. I have a passion for building clean, maintainable software while continuously learning modern technologies and best practices.
 
-💻 Interested in full-stack development, cloud technologies, and AI
+---
 
-🌱 Currently learning new frameworks, tools, and best practices
+## 🚀 About Me
 
-🔨 Enjoy building open-source projects and experimenting with new ideas
+- 💻 Passionate about **Full-Stack Web Development**
+- ☁️ Exploring **Cloud Computing**, **DevOps**, and **Artificial Intelligence**
+- 🌱 Always learning new frameworks, languages, and software architecture
+- 🔨 Love building open-source projects and experimenting with new ideas
+- 🐧 Daily Linux user who enjoys automation, scripting, and self-hosting
+- 🧩 I enjoy solving challenging programming problems and designing intuitive user experiences
+- 🤝 Open to collaborating on interesting open-source and community projects
 
-📚 Always looking to improve my coding and problem-solving skills
+---
 
-🤝 Open to collaboration on interesting projects
+## 🛠️ Interests
 
-* 🌍  I'm based in Houston TX
-* ✉️  You can contact me at [redhat1999@mailfence.com](mailto:redhat1999@mailfence.com)
-* 💬  Ask me about "Code is not just about making computers work—it's about creating solutions that make life better."
+- Front-End Development
+- Back-End Development
+- REST APIs
+- Linux & Open Source
+- Cloud Technologies
+- Artificial Intelligence
+- Software Engineering
+- Performance Optimization
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JavaScript" title="JavaScript" width="36" height="36" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/gnubash-colored.svg" alt="GNU Bash" title="GNU Bash" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" alt="TailwindCSS" title="TailwindCSS" width="36" height="36" /></a><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="36" height="36" /></a><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" title="React" width="36" height="36" /></a><a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg" alt="NextJs" title="NextJs" width="36" height="36" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="NodeJS" title="NodeJS" width="36" height="36" /></a><a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored-dark.svg" alt="Express" title="Express" width="36" height="36" /></a><a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" alt="NestJS" title="NestJS" width="36" height="36" /></a><a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg" alt="Photoshop" title="Photoshop" width="36" height="36" /></a><a href="https://cloud.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/googlecloud-colored.svg" alt="Google Cloud" title="Google Cloud" width="36" height="36" /></a><a href="https://www.raspberrypi.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/raspberrypi-colored.svg" alt="Raspberry Pi" title="Raspberry Pi" width="36" height="36" /></a><a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/linux-colored.svg" alt="Linux" title="Linux" width="36" height="36" /></a><a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ubuntu-colored.svg" alt="Ubuntu" title="Ubuntu" width="36" height="36" /></a>
-</p>
+---
 
-### Socials
+## 📖 Philosophy
 
-<p align="left"> <a href="https://www.github.com/agentred1999" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a> <a href="https://www.linkedin.com/in/agentred1999" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" title="LinkedIn" /> </picture> </a></p>
+> **"Code is not just about making computers work—it's about creating solutions that make life better."**
+
+I believe great software combines thoughtful design, reliable engineering, and continuous improvement. Every project is an opportunity to learn something new.
+
+---
+
+## 📚 Currently Learning
+
+- Modern Full-Stack Frameworks
+- Cloud Infrastructure
+- AI Integration
+- Software Architecture
+- Clean Code & Design Patterns
+
+---
+
+## 🌍 Location
+
+📍 Houston, Texas
+
+---
+
+## 📫 Contact
+
+- 📧 **Email:** redhat1999@mailfence.com
+
+---
+
+## ⭐ Thanks for Visiting!
+
+If you enjoy my projects or want to collaborate, feel free to explore my repositories or get in touch.
+
+Happy coding! 🚀
