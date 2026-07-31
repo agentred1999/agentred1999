@@ -9,9 +9,9 @@
   </style>
   <rect class="bg" width="460" height="160" rx="6"/>
   <text x="20" y="34" class="hd">CONTRIBUTIONS // LAST 365 DAYS</text>
-  <text x="20" y="70" class="val" font-size="34">58</text>
+  <text x="20" y="70" class="val" font-size="34">61</text>
   <text x="20" y="90" class="lbl">total commits, PRs, reviews &amp; issues</text>
   <text x="20" y="118" class="lbl">last 12 weeks</text>
-  <path d="M 20.0,145.0 L 58.2,134.5 L 96.4,131.3 L 134.5,125.0 L 172.7,143.9 L 210.9,142.9 L 249.1,145.0 L 287.3,145.0 L 325.5,143.9 L 363.6,143.9 L 401.8,133.4 L 440.0,145.0" fill="none" stroke="#00FF41" stroke-width="1.5"/><circle cx="20.0" cy="145.0" r="2" fill="#00FF41"/><circle cx="58.2" cy="134.5" r="2" fill="#00FF41"/><circle cx="96.4" cy="131.3" r="2" fill="#00FF41"/><circle cx="134.5" cy="125.0" r="2" fill="#00FF41"/><circle cx="172.7" cy="143.9" r="2" fill="#00FF41"/><circle cx="210.9" cy="142.9" r="2" fill="#00FF41"/><circle cx="249.1" cy="145.0" r="2" fill="#00FF41"/><circle cx="287.3" cy="145.0" r="2" fill="#00FF41"/><circle cx="325.5" cy="143.9" r="2" fill="#00FF41"/><circle cx="363.6" cy="143.9" r="2" fill="#00FF41"/><circle cx="401.8" cy="133.4" r="2" fill="#00FF41"/><circle cx="440.0" cy="145.0" r="2" fill="#00FF41"/>
+  <path d="M 20.0,145.0 L 58.2,126.1 L 96.4,137.2 L 134.5,125.0 L 172.7,143.9 L 210.9,142.8 L 249.1,145.0 L 287.3,145.0 L 325.5,142.8 L 363.6,145.0 L 401.8,131.7 L 440.0,142.8" fill="none" stroke="#00FF41" stroke-width="1.5"/><circle cx="20.0" cy="145.0" r="2" fill="#00FF41"/><circle cx="58.2" cy="126.1" r="2" fill="#00FF41"/><circle cx="96.4" cy="137.2" r="2" fill="#00FF41"/><circle cx="134.5" cy="125.0" r="2" fill="#00FF41"/><circle cx="172.7" cy="143.9" r="2" fill="#00FF41"/><circle cx="210.9" cy="142.8" r="2" fill="#00FF41"/><circle cx="249.1" cy="145.0" r="2" fill="#00FF41"/><circle cx="287.3" cy="145.0" r="2" fill="#00FF41"/><circle cx="325.5" cy="142.8" r="2" fill="#00FF41"/><circle cx="363.6" cy="145.0" r="2" fill="#00FF41"/><circle cx="401.8" cy="131.7" r="2" fill="#00FF41"/><circle cx="440.0" cy="142.8" r="2" fill="#00FF41"/>
 
 </svg>

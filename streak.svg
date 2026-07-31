@@ -10,14 +10,14 @@
   <rect class="bg" width="460" height="140" rx="6"/>
   <text x="20" y="30" class="hd">STREAK</text>
 
-  <text x="20" y="65" class="val" font-size="28">0</text>
+  <text x="20" y="65" class="val" font-size="28">4</text>
   <text x="90" y="60" class="lbl">day current streak</text>
-  <text x="90" y="76" class="lbl" fill="#12a83a">Jul 28, 2026 → Jul 29, 2026</text>
+  <text x="90" y="76" class="lbl" fill="#12a83a">Jul 28, 2026 → Jul 31, 2026</text>
 
   <line x1="20" y1="92" x2="440" y2="92" stroke="#1a2b1a"/>
 
-  <text x="20" y="120" class="val" font-size="28">2</text>
+  <text x="20" y="120" class="val" font-size="28">4</text>
   <text x="90" y="115" class="lbl">day longest streak</text>
-  <text x="90" y="131" class="lbl" fill="#12a83a">May 28, 2026 → May 29, 2026</text>
+  <text x="90" y="131" class="lbl" fill="#12a83a">Jul 28, 2026 → Jul 31, 2026</text>
 
 </svg>
