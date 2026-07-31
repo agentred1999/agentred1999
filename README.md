@@ -31,13 +31,16 @@
 </p>
 <br/>
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-about.svg" alt="About Me" width="100%"/>
+
 I'm a self-driven developer who builds practical, user-facing software — from AI-powered web apps to a real cybersecurity hardware brand I run myself, [1337 Wing](https://agentred1999.github.io/1337-Wing).
 Based in the Houston area, I work with a terminal-first, Linux-native workflow. Most of what I ship goes through the same loop: build it, break it, fix it, ship it — clean code and a working product matter more to me than shortcuts.
+
 - 💻 Full-stack development — Next.js, React, TypeScript, Firebase, Redux
 - 🐧 Daily Ubuntu user — scripting, automation, self-hosting, terminal-first workflow
 - 🔐 Founder of **1337 Wing** — cybersecurity-themed pentesting hardware & merch
 - 📡 Mesh networking / Meshtastic tinkerer
 - 🌱 Currently exploring AI-powered tooling and agentic dev workflows
+
 <br/>
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-stack.svg" alt="Tech Stack" width="100%"/>
 <p align="center">
@@ -45,14 +48,20 @@ Based in the Houston area, I work with a terminal-first, Linux-native workflow. 
 </p>
 <br/>
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-projects.svg" alt="Featured Projects" width="100%"/>
+
 ### 🧴 Skinstric AI Clone (`skin-ai`)
 Next.js 15 / TypeScript rebuild of an AI skincare analysis flow — camera capture, gallery upload, live API-driven demographic analysis, full mobile-responsive UI.
+
 ### 📚 Summarist
 Blinkist-style book summary app — Next.js App Router, Firebase Auth, Firestore, Redux Toolkit, and Stripe subscriptions end-to-end.
+
 ### 🔐 1337 Wing
 A real cybersecurity brand I founded — pentesting hardware and hacker merch, with a full React/Vite storefront including a live HackerNews intel feed.
+
 ### 🖼 NFT Marketplace
 React app built against a Firebase Cloud Functions API — dynamic carousels, countdown timers, localStorage-backed follow state, deployed on GitHub Pages.
+
 <br/>
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-quote.svg" alt="Favorite Quote" width="100%"/>
+
 > "Slow is smooth, smooth is fast"
