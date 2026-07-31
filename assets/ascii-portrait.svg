@@ -18,9 +18,12 @@
   <g clip-path="url(#tw-round2)">
     <rect x="0" y="0" width="248" height="372" fill="#0d1117"/>
     <rect x="0" y="0" width="248" height="40" fill="#161b22"/>
-    <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
-    <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
-    <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+    <g stroke="#00FF41" stroke-width="1.4" fill="none" opacity="0.85" stroke-linecap="round">
+      <line x1="186" y1="20" x2="194" y2="20"/>
+      <rect x="204" y="16" width="8" height="8"/>
+      <line x1="222" y1="16" x2="230" y2="24"/>
+      <line x1="222" y1="24" x2="230" y2="16"/>
+    </g>
     <text x="124" y="24" text-anchor="middle" class="titlebar-text">portrait.ascii</text>
     <rect x="0" y="40" width="248" height="1" fill="#30363d"/>
     <g class="ascii">
