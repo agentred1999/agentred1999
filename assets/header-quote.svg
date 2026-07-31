@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 50" width="900" height="50" font-family="'Fira Code','Courier New', Consolas, Menlo, monospace">
+  <defs>
+    <clipPath id="round-header-quote">
+      <rect x="0" y="0" width="900" height="50" rx="6" ry="6"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#round-header-quote)">
+    <rect x="0" y="0" width="900" height="50" fill="#0d1117"/>
+    <rect x="0" y="0" width="4" height="50" fill="#00FF41"/>
+    <rect x="0" y="0" width="900" height="50" fill="none" stroke="#30363d" stroke-width="1"/>
+    <text x="30" y="30.8" font-size="18" fill="#0a8f2e">$<tspan fill="#00FF41" dx="10">fortune | lolcat</tspan><tspan fill="#00FF41" dx="8" opacity="0.85">_</tspan></text>
+  </g>
+</svg>

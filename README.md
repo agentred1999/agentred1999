@@ -1,23 +1,42 @@
+<!--
+  Upload everything in /assets to your agentred1999/agentred1999 repo
+  under an /assets folder (keep the same filenames), then this README
+  will reference them via raw.githubusercontent.com so all the SVG
+  animations render live on your profile page.
+
+  Files used below (all in /assets):
+    typing-terminal.svg   – animated typing terminal (hero)
+    ascii-portrait.svg    – green ASCII portrait (hero)
+    header-about.svg      – "$ cat about_me.md" section bar
+    header-stack.svg      – "$ ./tech_stack.sh --list" section bar
+    header-projects.svg   – "$ ls -la ~/projects/featured" section bar
+    header-quote.svg      – "$ fortune | lolcat" section bar
+-->
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/banner.svg" alt="matrix banner" width="100%"/>
 </p>
 
-<h1 align="center">Hi 👋, I'm Richard Dean</h1>
-<h3 align="center">
-Software Developer • Linux Power User • Aspiring Pentester
-</h3>
-
 <p align="center">
-Building practical software, one terminal window at a time.
+  <table>
+    <tr>
+      <td width="60%" valign="top">
+        <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/typing-terminal.svg" alt="Typing terminal intro" width="100%"/>
+      </td>
+      <td width="40%" align="center" valign="top">
+        <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ascii-portrait.svg" alt="ASCII portrait" width="100%"/>
+      </td>
+    </tr>
+  </table>
 </p>
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Linux+%2F+Ubuntu+Power+User;Building+1337+Wing;Next.js+%2B+TypeScript+%2B+Firebase;Always+Learning+Something+New;Welcome+to+my+GitHub!" />
 </p>
 
----
+<br/>
 
-## 🚀 About Me
+<img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-about.svg" alt="About Me" width="100%"/>
 
 I'm a self-driven developer who builds practical, user-facing software — from AI-powered web apps to a real cybersecurity hardware brand I run myself, [1337 Wing](https://agentred1999.github.io/1337-Wing).
 
@@ -29,17 +48,17 @@ Based in the Houston area, I work with a terminal-first, Linux-native workflow. 
 - 📡 Mesh networking / Meshtastic tinkerer
 - 🌱 Currently exploring AI-powered tooling and agentic dev workflows
 
----
+<br/>
 
-## 💻 Tech Stack
+<img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-stack.svg" alt="Tech Stack" width="100%"/>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,linux,bash,git,github,vscode,firebase,docker&theme=dark" />
 </p>
 
----
+<br/>
 
-## 🚀 Featured Projects
+<img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-projects.svg" alt="Featured Projects" width="100%"/>
 
 ### 🧴 Skinstric AI Clone (`skin-ai`)
 Next.js 15 / TypeScript rebuild of an AI skincare analysis flow — camera capture, gallery upload, live API-driven demographic analysis, full mobile-responsive UI.
@@ -53,7 +72,8 @@ A real cybersecurity brand I founded — pentesting hardware and hacker merch, w
 ### 🖼 NFT Marketplace
 React app built against a Firebase Cloud Functions API — dynamic carousels, countdown timers, localStorage-backed follow state, deployed on GitHub Pages.
 
-## 💡 Favorite Quote
+<br/>
+
+<img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/header-quote.svg" alt="Favorite Quote" width="100%"/>
 
 > "Slow is smooth, smooth is fast"
-> 
