@@ -21,9 +21,7 @@
         <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/typing-terminal.svg" alt="Typing terminal intro" width="100%"/>
       </td>
       <td width="40%" align="center" valign="top">
-      <td width="40%" align="center" valign="top">
-  </div>
-</td>
+        <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ascii-portrait.svg" alt="ASCII portrait" width="100%"/>
       </td>
     </tr>
   </table>
