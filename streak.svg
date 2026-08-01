@@ -10,7 +10,7 @@
   <rect class="bg" width="460" height="140" rx="6"/>
   <text x="20" y="30" class="hd">STREAK</text>
 
-  <text x="20" y="65" class="val" font-size="28">4</text>
+  <text x="20" y="65" class="val" font-size="28">0</text>
   <text x="90" y="60" class="lbl">day current streak</text>
   <text x="90" y="76" class="lbl" fill="#12a83a">Jul 28, 2026 → Jul 31, 2026</text>
 
