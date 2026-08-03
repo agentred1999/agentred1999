@@ -15,16 +15,7 @@
 <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/banner.svg" alt="matrix banner" width="100%"/>
 </p>
 <p align="center">
-  <table>
-    <tr>
-      <td width="60%" valign="top">
-        <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/typing-terminal.svg" alt="Typing terminal intro" width="100%"/>
-      </td>
-      <td width="40%" align="center" valign="top">
-        <img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ascii-portrait.svg" alt="ASCII portrait" width="100%"/>
-      </td>
-    </tr>
-  </table>
+<img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ibm-terminal.svg" alt="IBM PC/AT terminal" width="700"/>
 </p>
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;Linux+%2F+Ubuntu+Power+User;Building+1337+Wing;Next.js+%2B+TypeScript+%2B+Firebase;Always+Learning+Something+New;Welcome+to+my+GitHub!" />
