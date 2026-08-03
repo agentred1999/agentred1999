@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 760" width="700" height="760" font-family="'JetBrains Mono', 'Courier New', Consolas, monospace">
+  <defs>
+    <linearGradient id="beige" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9d2c0"/>
+      <stop offset="100%" stop-color="#bdb39c"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f0f"/>
+      <stop offset="100%" stop-color="#03130a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Monitor shell -->
+  <rect x="30" y="20" width="640" height="600" rx="18" fill="url(#beige)" stroke="#8f8567" stroke-width="2"/>
+
+  <!-- Vent slits top -->
+  <g stroke="#8f8567" stroke-width="2">
+    <line x1="520" y1="35" x2="520" y2="65"/>
+    <line x1="535" y1="35" x2="535" y2="65"/>
+    <line x1="550" y1="35" x2="550" y2="65"/>
+    <line x1="565" y1="35" x2="565" y2="65"/>
+    <line x1="580" y1="35" x2="580" y2="65"/>
+  </g>
+
+  <!-- IBM badge -->
+  <text x="55" y="55" font-size="16" font-weight="bold" fill="#3a3527">IBM</text>
+
+  <!-- Screen bezel (4:3 ratio) -->
+  <rect x="65" y="80" width="570" height="428" rx="6" fill="#0d0d0d"/>
+  <!-- Screen (true 4:3) -->
+  <rect x="80" y="95" width="540" height="405" rx="3" fill="url(#screenGlow)"/>
+
+  <!-- Divider between terminal text and portrait -->
+  <line x1="450" y1="95" x2="450" y2="500" stroke="#0f3d20" stroke-width="1"/>
+
+  <!-- Terminal text -->
+  <g fill="#39d353" filter="url(#glow)" font-size="14">
+    <text x="100" y="130">Wake up, agentred1999...</text>
+    <text x="100" y="155">&gt; Follow the white rabbit.</text>
+    <text x="100" y="178">&gt; Knock Knock agentred1999.</text>
+    <text x="100" y="222">&gt; My name is Richard Dean.</text>
+    <text x="100" y="244">&gt; I am a software developer.</text>
+    <text x="100" y="266">&gt; I build websites.</text>
+    <text x="100" y="288">&gt; Welcome to my GitHub.</text>
+  </g>
+
+  <!-- ENTER prompt box -->
+  <rect x="95" y="320" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5"/>
+  <text x="120" y="341" fill="#39d353" font-size="13" filter="url(#glow)">[ ENTER ]</text>
+
+  <!-- ASCII portrait panel -->
+  <rect x="470" y="130" width="130" height="22" fill="none" stroke="#1f7a3d" stroke-width="1"/>
+  <text x="480" y="145" fill="#2ea84a" font-size="10">[ ascii portrait ]</text>
+
+  <g fill="#2ea84a" font-size="10" font-family="'Courier New', monospace">
+    <text x="480" y="175">   .--.</text>
+    <text x="480" y="190">  ( o o )</text>
+    <text x="480" y="205">  | -- |</text>
+    <text x="480" y="220">  '----'</text>
+    <text x="480" y="235">  |####|</text>
+    <text x="480" y="250">  |####|</text>
+  </g>
+  <rect x="470" y="262" width="120" height="24" fill="none" stroke="#1f7a3d" stroke-width="1"/>
+  <text x="482" y="278" fill="#2ea84a" font-size="10">PC/AT 5170</text>
+
+  <!-- Lower shell / control panel -->
+  <rect x="30" y="520" width="640" height="60" rx="8" fill="url(#beige)" stroke="#8f8567" stroke-width="2"/>
+  <circle cx="80" cy="550" r="10" fill="#c98a2b" stroke="#7a5518" stroke-width="1.5"/>
+  <rect x="180" y="542" width="280" height="16" rx="2" fill="#3a3527"/>
+  <text x="530" y="555" font-size="13" fill="#5a5340">PC/AT 5170</text>
+
+  <!-- Neck -->
+  <rect x="290" y="580" width="120" height="30" fill="#bdb39c" stroke="#8f8567" stroke-width="2"/>
+  <!-- Base -->
+  <rect x="210" y="610" width="280" height="18" rx="9" fill="#bdb39c" stroke="#8f8567" stroke-width="2"/>
+</svg>
