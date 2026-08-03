@@ -15,6 +15,51 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
+    <style>
+      /* ---- Line 1: "Wake up, agentred1999..." (24 chars) ---- */
+      .l1 { clip-path: inset(0 100% 0 0); animation: type1 1.0s steps(24) forwards; animation-delay: 0.3s; }
+      @keyframes type1 { to { clip-path: inset(0 0 0 0); } }
+
+      /* ---- Line 2: "> Follow the white rabbit." (27 chars) ---- */
+      .l2 { opacity: 0; clip-path: inset(0 100% 0 0); animation: fadeIn 0.01s forwards, type2 1.1s steps(27) forwards; animation-delay: 1.5s, 1.5s; }
+      @keyframes type2 { to { clip-path: inset(0 0 0 0); } }
+
+      /* ---- Line 3: "> Knock Knock agentred1999." (27 chars) ---- */
+      .l3 { opacity: 0; clip-path: inset(0 100% 0 0); animation: fadeIn 0.01s forwards, type3 1.1s steps(27) forwards; animation-delay: 2.8s, 2.8s; }
+      @keyframes type3 { to { clip-path: inset(0 0 0 0); } }
+
+      @keyframes fadeIn { to { opacity: 1; } }
+
+      /* ---- ENTER button pulse (invites the click) ---- */
+      .enter-box, .enter-text {
+        animation: pulse 1.1s ease-in-out infinite;
+        animation-delay: 4.2s;
+        opacity: 0;
+      }
+      .enter-box { animation-name: pulseBox, fadeIn; animation-duration: 1.1s, 0.01s; animation-delay: 4.2s, 4.2s; animation-iteration-count: infinite, 1; animation-fill-mode: forwards, forwards; }
+      .enter-text { animation-name: fadeIn; animation-duration: 0.01s; animation-delay: 4.2s; animation-fill-mode: forwards; }
+      @keyframes pulseBox { 0%, 100% { stroke-opacity: 1; } 50% { stroke-opacity: 0.35; } }
+
+      /* ---- "Pressed" flash on the ENTER box right before reveal ---- */
+      .enter-flash { opacity: 0; animation: flash 0.4s ease-out forwards; animation-delay: 5.6s; }
+      @keyframes flash { 0% { opacity: 0.9; } 100% { opacity: 0; } }
+
+      /* ---- Post-ENTER reveal lines (fade + slight rise) ---- */
+      .r1 { opacity: 0; animation: reveal 0.5s ease-out forwards; animation-delay: 6.0s; }
+      .r2 { opacity: 0; animation: reveal 0.5s ease-out forwards; animation-delay: 6.5s; }
+      .r3 { opacity: 0; animation: reveal 0.5s ease-out forwards; animation-delay: 7.0s; }
+      .r4 { opacity: 0; animation: reveal 0.5s ease-out forwards; animation-delay: 7.5s; }
+      @keyframes reveal {
+        from { opacity: 0; transform: translateY(6px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /* ---- Blinking cursor, active only during the first typed sequence ---- */
+      .cursor { animation: blink 0.9s steps(1) infinite, hideCursor 0.01s forwards; animation-delay: 0s, 5.9s; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes hideCursor { to { opacity: 0; } }
+    </style>
   </defs>
 
   <!-- Monitor shell -->
@@ -40,20 +85,26 @@
   <!-- Divider between terminal text and portrait -->
   <line x1="450" y1="95" x2="450" y2="500" stroke="#0f3d20" stroke-width="1"/>
 
-  <!-- Terminal text -->
+  <!-- Typed intro lines -->
   <g fill="#39d353" filter="url(#glow)" font-size="14">
-    <text x="100" y="130">Wake up, agentred1999...</text>
-    <text x="100" y="155">&gt; Follow the white rabbit.</text>
-    <text x="100" y="178">&gt; Knock Knock agentred1999.</text>
-    <text x="100" y="222">&gt; My name is Richard Dean.</text>
-    <text x="100" y="244">&gt; I am a software developer.</text>
-    <text x="100" y="266">&gt; I build websites.</text>
-    <text x="100" y="288">&gt; Welcome to my GitHub.</text>
+    <text class="l1" x="100" y="130">Wake up, agentred1999...</text>
+    <text class="l2" x="100" y="155">&gt; Follow the white rabbit.</text>
+    <text class="l3" x="100" y="178">&gt; Knock Knock agentred1999.</text>
+    <rect class="cursor" x="100" y="168" width="8" height="14" fill="#39d353"/>
   </g>
 
-  <!-- ENTER prompt box -->
-  <rect x="95" y="320" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5"/>
-  <text x="120" y="341" fill="#39d353" font-size="13" filter="url(#glow)">[ ENTER ]</text>
+  <!-- ENTER prompt box (pulses to invite a click) -->
+  <rect class="enter-box" x="95" y="320" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5"/>
+  <text class="enter-text" x="120" y="341" fill="#39d353" font-size="13" filter="url(#glow)">[ ENTER ]</text>
+  <rect class="enter-flash" x="95" y="320" width="140" height="30" fill="#39d353"/>
+
+  <!-- Revealed lines after "pressing" ENTER -->
+  <g fill="#39d353" filter="url(#glow)" font-size="14">
+    <text class="r1" x="100" y="130">My name is Richard Dean.</text>
+    <text class="r2" x="100" y="155">I am a software developer.</text>
+    <text class="r3" x="100" y="178">I build websites.</text>
+    <text class="r4" x="100" y="200">Welcome to my GitHub.</text>
+  </g>
 
   <!-- ASCII portrait panel -->
   <rect x="470" y="130" width="130" height="22" fill="none" stroke="#1f7a3d" stroke-width="1"/>
