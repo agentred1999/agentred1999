@@ -40,67 +40,40 @@
   <!-- Divider between terminal text and portrait -->
   <line x1="450" y1="95" x2="450" y2="500" stroke="#0f3d20" stroke-width="1"/>
 
-  <!-- ===== Typed intro lines (fade in, then fade out before ENTER reveal) ===== -->
-  <g fill="#39d353" filter="url(#glow)" font-size="14">
-    <text x="100" y="130" opacity="0">
-      Wake up, agentred1999...
-      <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.3s" fill="freeze"/>
-      <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.3s" fill="freeze"/>
-    </text>
-    <text x="100" y="155" opacity="0">
-      &gt; Follow the white rabbit.
-      <animate attributeName="opacity" from="0" to="1" begin="1.6s" dur="0.3s" fill="freeze"/>
-      <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.3s" fill="freeze"/>
-    </text>
-    <text x="100" y="178" opacity="0">
-      &gt; Knock Knock agentred1999.
-      <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.3s" fill="freeze"/>
-      <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.3s" fill="freeze"/>
-    </text>
+  <!-- ===== GROUP A: "before ENTER" content — one continuous 12s loop ===== -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.03;0.42;0.46;1" dur="12s" repeatCount="indefinite"/>
+
+    <g fill="#39d353" filter="url(#glow)" font-size="14">
+      <text x="100" y="130">Wake up, agentred1999...</text>
+      <text x="100" y="155">&gt; Follow the white rabbit.</text>
+      <text x="100" y="178">&gt; Knock Knock agentred1999.</text>
+    </g>
+
+    <!-- Blinking cursor (inherits the group's fade automatically) -->
+    <rect x="100" y="168" width="8" height="14" fill="#39d353">
+      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ENTER box, pulsing -->
+    <rect x="95" y="320" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="1;0.35;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="120" y="341" fill="#39d353" font-size="13" filter="url(#glow)">[ ENTER ]</text>
+
+    <!-- Flash right before the group fades out (simulates the "press") -->
+    <rect x="95" y="320" width="140" height="30" fill="#39d353" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.39;0.42;0.45;1" dur="12s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <!-- Blinking cursor, active only before ENTER is "pressed" -->
-  <rect x="100" y="168" width="8" height="14" fill="#39d353" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.01s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0;1" begin="2.9s" dur="0.9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" to="0" begin="5.6s" dur="0.01s" fill="freeze"/>
-  </rect>
-
-  <!-- ===== ENTER prompt box (pulses in, flashes, then fades out) ===== -->
-  <rect x="95" y="320" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.3s" fill="freeze"/>
-    <animate attributeName="stroke-opacity" values="1;0.35;1" begin="4.5s" dur="1.1s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.3s" fill="freeze"/>
-  </rect>
-  <text x="120" y="341" fill="#39d353" font-size="13" filter="url(#glow)" opacity="0">
-    [ ENTER ]
-    <animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.3s" fill="freeze"/>
-    <animate attributeName="opacity" from="1" to="0" begin="5.6s" dur="0.3s" fill="freeze"/>
-  </text>
-
-  <!-- Green flash simulating the button being pressed -->
-  <rect x="95" y="320" width="140" height="30" fill="#39d353" opacity="0">
-    <animate attributeName="opacity" values="0;0.9;0" begin="5.6s" dur="0.4s" fill="freeze"/>
-  </rect>
-
-  <!-- ===== Revealed lines after ENTER is "pressed" ===== -->
-  <g fill="#39d353" filter="url(#glow)" font-size="14">
-    <text x="100" y="130" opacity="0">
-      My name is Richard Dean.
-      <animate attributeName="opacity" from="0" to="1" begin="6.0s" dur="0.4s" fill="freeze"/>
-    </text>
-    <text x="100" y="155" opacity="0">
-      I am a software developer.
-      <animate attributeName="opacity" from="0" to="1" begin="6.5s" dur="0.4s" fill="freeze"/>
-    </text>
-    <text x="100" y="178" opacity="0">
-      I build websites.
-      <animate attributeName="opacity" from="0" to="1" begin="7.0s" dur="0.4s" fill="freeze"/>
-    </text>
-    <text x="100" y="200" opacity="0">
-      Welcome to my GitHub.
-      <animate attributeName="opacity" from="0" to="1" begin="7.5s" dur="0.4s" fill="freeze"/>
-    </text>
+  <!-- ===== GROUP B: "after ENTER" reveal — same 12s loop, opposite phase ===== -->
+  <g opacity="0" fill="#39d353" filter="url(#glow)" font-size="14">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.5;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <text x="100" y="130">My name is Richard Dean.</text>
+    <text x="100" y="155">I am a software developer.</text>
+    <text x="100" y="178">I build websites.</text>
+    <text x="100" y="200">Welcome to my GitHub.</text>
   </g>
 
   <!-- ASCII portrait panel -->
