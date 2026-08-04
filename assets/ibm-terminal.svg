@@ -145,7 +145,7 @@
   </g>
   <!-- ASCII portrait panel -->
   <rect x="470" y="130" width="130" height="22" fill="none" stroke="#1f7a3d" stroke-width="1"/>
-  <text x="480" y="145" fill="#2ea84a" font-size="10">[ ascii portrait ]</text>
+  <text x="480" y="145" fill="#2ea84a" font-size="10">[ Hiking Portrait ]</text>
   <clipPath id="portraitCrop">
     <rect x="470" y="152" width="130" height="120"/>
   </clipPath>
