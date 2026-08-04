@@ -16,45 +16,84 @@
       </feMerge>
     </filter>
 
-    <!-- Typewriter clip rects: width grows over time to reveal each line character by character -->
-    <!-- Timings slowed ~1.6x from the original for a more relaxed typing feel -->
+    <!-- Typewriter clip rects: width grows over time to reveal each line character by character.
+         Growth is now driven by the CSS animation classes below (see style block), rather than
+         SMIL animate elements, since GitHub's README sanitizer strips SMIL animation tags. -->
     <clipPath id="clipL1">
-      <rect x="98" y="114" width="0" height="20">
-        <animate attributeName="width" from="0" to="212" begin="0.5s" dur="1.6s" fill="freeze"/>
-      </rect>
+      <rect class="growL1" x="98" y="114" width="0" height="20"/>
     </clipPath>
     <clipPath id="clipL2">
-      <rect x="98" y="139" width="0" height="20">
-        <animate attributeName="width" from="0" to="237" begin="2.4s" dur="1.8s" fill="freeze"/>
-      </rect>
+      <rect class="growL2" x="98" y="139" width="0" height="20"/>
     </clipPath>
     <clipPath id="clipL3">
-      <rect x="98" y="162" width="0" height="20">
-        <animate attributeName="width" from="0" to="246" begin="4.5s" dur="1.8s" fill="freeze"/>
-      </rect>
+      <rect class="growL3" x="98" y="162" width="0" height="20"/>
     </clipPath>
 
     <clipPath id="clipR1">
-      <rect x="98" y="204" width="0" height="20">
-        <animate attributeName="width" from="0" to="212" begin="9.6s" dur="1.4s" fill="freeze"/>
-      </rect>
+      <rect class="growR1" x="98" y="204" width="0" height="20"/>
     </clipPath>
     <clipPath id="clipR2">
-      <rect x="98" y="229" width="0" height="20">
-        <animate attributeName="width" from="0" to="237" begin="11.2s" dur="1.4s" fill="freeze"/>
-      </rect>
+      <rect class="growR2" x="98" y="229" width="0" height="20"/>
     </clipPath>
     <clipPath id="clipR3">
-      <rect x="98" y="254" width="0" height="20">
-        <animate attributeName="width" from="0" to="160" begin="12.8s" dur="1.1s" fill="freeze"/>
-      </rect>
+      <rect class="growR3" x="98" y="254" width="0" height="20"/>
     </clipPath>
     <clipPath id="clipR4">
-      <rect x="98" y="279" width="0" height="20">
-        <animate attributeName="width" from="0" to="186" begin="14.1s" dur="1.3s" fill="freeze"/>
-      </rect>
+      <rect class="growR4" x="98" y="279" width="0" height="20"/>
     </clipPath>
   </defs>
+
+  <style><![CDATA[
+    /* ===== Typewriter clip-rect growth (replaces SMIL width-animation elements) ===== */
+    @keyframes growTo212 { from { width: 0; } to { width: 212px; } }
+    @keyframes growTo237 { from { width: 0; } to { width: 237px; } }
+    @keyframes growTo246 { from { width: 0; } to { width: 246px; } }
+    @keyframes growTo160 { from { width: 0; } to { width: 160px; } }
+    @keyframes growTo186 { from { width: 0; } to { width: 186px; } }
+
+    .growL1 { animation: growTo212 1.6s linear 0.5s both; }
+    .growL2 { animation: growTo237 1.8s linear 2.4s both; }
+    .growL3 { animation: growTo246 1.8s linear 4.5s both; }
+    .growR1 { animation: growTo212 1.4s linear 9.6s both; }
+    .growR2 { animation: growTo237 1.4s linear 11.2s both; }
+    .growR3 { animation: growTo160 1.1s linear 12.8s both; }
+    .growR4 { animation: growTo186 1.3s linear 14.1s both; }
+
+    /* ===== Cursor blink (replaces SMIL opacity-animation element) ===== */
+    @keyframes cursorBlink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    #cursor {
+      animation: cursorBlink 0.9s linear infinite;
+    }
+
+    /* ===== Cursor position (replaces the two SMIL x/y position-animation elements) =====
+       Base rect position in the markup is x=100 y=119; each keyframe below is expressed
+       as a translate() offset from that base, matching the original keyTimes/values exactly. */
+    @keyframes cursorMove {
+      0%      { transform: translate(0px, 0px); }
+      3.25%   { transform: translate(0px, 0px); }
+      13.64%  { transform: translate(212px, 0px); }
+      15.58%  { transform: translate(0px, 25px); }
+      27.27%  { transform: translate(237px, 25px); }
+      29.22%  { transform: translate(0px, 48px); }
+      40.91%  { transform: translate(246px, 48px); }
+      62.34%  { transform: translate(0px, 90px); }
+      71.43%  { transform: translate(212px, 90px); }
+      72.73%  { transform: translate(0px, 115px); }
+      81.82%  { transform: translate(237px, 115px); }
+      83.12%  { transform: translate(0px, 140px); }
+      90.26%  { transform: translate(160px, 140px); }
+      91.56%  { transform: translate(0px, 165px); }
+      100%    { transform: translate(186px, 165px); }
+    }
+    #cursorTrack {
+      animation: cursorMove 15.4s linear 0s both;
+      transform-box: fill-box;
+    }
+  ]]></style>
 
   <!-- Monitor shell -->
   <rect x="30" y="20" width="640" height="600" rx="18" fill="url(#beige)" stroke="#8f8567" stroke-width="2"/>
@@ -90,18 +129,12 @@
        It sits at the start of a line while that line types out, jumps to the end
        of the line the instant typing finishes, holds there through any pause,
        then jumps to the next line's start as soon as that line begins. It blinks
-       continuously the whole time and rests at the end of the final line. -->
-  <rect x="100" y="119" width="8" height="14" fill="#39d353">
-    <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
-    <animate attributeName="x"
-      keyTimes="0;0.0325;0.1364;0.1558;0.2727;0.2922;0.4091;0.6234;0.7143;0.7273;0.8182;0.8312;0.9026;0.9156;1.0;1"
-      values="100;100;312;100;337;100;346;100;312;100;337;100;260;100;286;286"
-      begin="0s" dur="15.4s" fill="freeze"/>
-    <animate attributeName="y"
-      keyTimes="0;0.0325;0.1364;0.1558;0.2727;0.2922;0.4091;0.6234;0.7143;0.7273;0.8182;0.8312;0.9026;0.9156;1.0;1"
-      values="119;119;119;144;144;167;167;209;209;234;234;259;259;284;284;284"
-      begin="0s" dur="15.4s" fill="freeze"/>
-  </rect>
+       continuously the whole time and rests at the end of the final line.
+       #cursorTrack applies the position animation (translate from the base x=100,y=119);
+       #cursor (nested inside) applies the independent blink animation. -->
+  <g id="cursorTrack">
+    <rect id="cursor" x="100" y="119" width="8" height="14" fill="#39d353"/>
+  </g>
 
   <!-- ===== Reveal lines, typed character by character underneath ===== -->
   <g fill="#39d353" filter="url(#glow)" font-size="14">
@@ -139,7 +172,8 @@
       <text x="20.00,23.72,27.44,31.16,34.88,38.60,42.32,46.04,49.76,53.48,57.20,60.92,64.64,68.36,72.08,75.80,79.52,83.24,86.96,90.68,94.40,98.12,101.84,105.56,109.28,113.00,116.72,120.44,124.16,127.88,131.60,135.32,139.04,142.76,146.48,150.20,153.92,157.64,161.36,165.08,168.80,172.52,176.24,179.96,183.68,187.40,191.12,194.84,198.56,202.28,206.00,209.72,213.44,217.16,220.88,224.60,228.32,232.04,235.76,239.48,243.20,246.92,250.64,254.36,258.08,261.80,265.52,269.24,272.96,276.68,280.40,284.12,287.84,291.56,295.28,299.00" y="181.8000" class="ascii" xml:space="preserve">@@@@%@@@@@@@@@@@@@%%@@@@@@@@@@@%#@@@@@@@@@@@@@%%%%%%%%%%%%%==+#--+*%@@@@%@@@</text>
       <text x="20.00,23.72,27.44,31.16,34.88,38.60,42.32,46.04,49.76,53.48,57.20,60.92,64.64,68.36,72.08,75.80,79.52,83.24,86.96,90.68,94.40,98.12,101.84,105.56,109.28,113.00,116.72,120.44,124.16,127.88,131.60,135.32,139.04,142.76,146.48,150.20,153.92,157.64,161.36,165.08,168.80,172.52,176.24,179.96,183.68,187.40,191.12,194.84,198.56,202.28,206.00,209.72,213.44,217.16,220.88,224.60,228.32,232.04,235.76,239.48,243.20,246.92,250.64,254.36,258.08,261.80,265.52,269.24,272.96,276.68,280.40,284.12,287.84,291.56,295.28,299.00" y="189.2000" class="ascii" xml:space="preserve">@@@%#%@@@@@@@@%%%%%@@@@@@@@@@@@%#@%%@@@@@@@@@@%%%%%%%%%%%%%+:::::::-===+===-</text>
       <text x="20.00,23.72,27.44,31.16,34.88,38.60,42.32,46.04,49.76,53.48,57.20,60.92,64.64,68.36,72.08,75.80,79.52,83.24,86.96,90.68,94.40,98.12,101.84,105.56,109.28,113.00,116.72,120.44,124.16,127.88,131.60,135.32,139.04,142.76,146.48,150.20,153.92,157.64,161.36,165.08,168.80,172.52,176.24,179.96,183.68,187.40,191.12,194.84,198.56,202.28,206.00,209.72,213.44,217.16,220.88,224.60,228.32,232.04,235.76,239.48,243.20,246.92,250.64,254.36,258.08,261.80,265.52,269.24,272.96,276.68,280.40,284.12,287.84,291.56,295.28,299.00" y="196.6000" class="ascii" xml:space="preserve">***=-===*###*+#%%%@@%%%@@@@@%%%%@%%%%%@@@@@@@%%%%%%%%%%%%%%%=:::::::::::::::</text>
-      <text x="20.00,23.72,27.44,31.16,34.88,38.60,42.32,46.04,49.76,53.48,57.20,60.92,64.64,68.36,72.08,75.80,79.52,83.24,86.96,90.68,94.40,98.12,101.84,105.56,109.28,113.00,116.72,120.44,124.16,127.88,131.60,135.32,139.04,142.76,146.48,150.20,153.92,157.64,161.36,165.08,168.80,172.52,176.24,179.96,183.68,187.40,191.12,194.84,198.56,202.28,206.00,209.72,213.44,217.16,220.88,224.60,228.32,232.04,235.76,239.48,243.20,246.92,250.64,254.36,258.08,261.80,265.52,269.24,272.96,276.68,280.40,284.12,287.84,291.56,295.28,299.00" y="204.0000" class="ascii" xml:space="preserve">:-::::::::::+%%%%@@@@@@@@@@%%%%%@%%%%%@@@@@@@%%%%%%%%%%%%%%%%=::::::::::::::</text>    </g>
+      <text x="20.00,23.72,27.44,31.16,34.88,38.60,42.32,46.04,49.76,53.48,57.20,60.92,64.64,68.36,72.08,75.80,79.52,83.24,86.96,90.68,94.40,98.12,101.84,105.56,109.28,113.00,116.72,120.44,124.16,127.88,131.60,135.32,139.04,142.76,146.48,150.20,153.92,157.64,161.36,165.08,168.80,172.52,176.24,179.96,183.68,187.40,191.12,194.84,198.56,202.28,206.00,209.72,213.44,217.16,220.88,224.60,228.32,232.04,235.76,239.48,243.20,246.92,250.64,254.36,258.08,261.80,265.52,269.24,272.96,276.68,280.40,284.12,287.84,291.56,295.28,299.00" y="204.0000" class="ascii" xml:space="preserve">:-::::::::::+%%%%@@@@@@@@@@%%%%%@%%%%%@@@@@@@%%%%%%%%%%%%%%%%=::::::::::::::</text>
+    </g>
   </g>
   <rect x="470" y="284" width="120" height="24" fill="none" stroke="#1f7a3d" stroke-width="1"/>
   <text x="482" y="300" fill="#2ea84a" font-size="10">PC/AT 5170</text>
