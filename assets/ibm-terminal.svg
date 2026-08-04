@@ -90,7 +90,7 @@
       100%    { transform: translate(186px, 165px); }
     }
     #cursorTrack {
-      animation: cursorMove 15.4s linear 0s both;
+      animation: cursorMove 15.4s steps(1) 0s both;
       transform-box: fill-box;
     }
   ]]></style>
