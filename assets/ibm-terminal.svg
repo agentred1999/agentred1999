@@ -111,11 +111,6 @@
     <text x="100" y="295" clip-path="url(#clipR4)">Welcome to my GitHub.</text>
   </g>
 
-  <!-- ENTER box, pulsing, bottom of screen -->
-  <rect x="95" y="450" width="140" height="30" fill="none" stroke="#39d353" stroke-width="1.5">
-    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
-  <text x="120" y="471" fill="#39d353" font-size="13" filter="url(#glow)">[ ENTER ]</text>
 
   <!-- ASCII portrait panel -->
   <rect x="470" y="130" width="130" height="22" fill="none" stroke="#1f7a3d" stroke-width="1"/>
