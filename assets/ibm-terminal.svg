@@ -65,33 +65,28 @@
       50% { opacity: 0; }
       100% { opacity: 1; }
     }
-    #cursor {
-      animation: cursorBlink 0.9s linear infinite;
-    }
-
-    /* ===== Cursor position (replaces the two SMIL x/y position-animation elements) =====
+/* ===== Cursor position (replaces the two SMIL x/y position-animation elements) =====
        Base rect position in the markup is x=100 y=119; each keyframe below is expressed
        as a translate() offset from that base, matching the original keyTimes/values exactly. */
     @keyframes cursorMove {
-      0%      { transform: translate(0px, 0px); }
-      3.25%   { transform: translate(0px, 0px); }
-      13.64%  { transform: translate(212px, 0px); }
-      15.58%  { transform: translate(0px, 25px); }
-      27.27%  { transform: translate(237px, 25px); }
-      29.22%  { transform: translate(0px, 48px); }
-      40.91%  { transform: translate(246px, 48px); }
-      62.34%  { transform: translate(0px, 90px); }
-      71.43%  { transform: translate(212px, 90px); }
-      72.73%  { transform: translate(0px, 115px); }
-      81.82%  { transform: translate(237px, 115px); }
-      83.12%  { transform: translate(0px, 140px); }
-      90.26%  { transform: translate(160px, 140px); }
-      91.56%  { transform: translate(0px, 165px); }
-      100%    { transform: translate(186px, 165px); }
+      0%      { x: 100px; y: 119px; }
+      3.25%   { x: 100px; y: 119px; }
+      13.64%  { x: 312px; y: 119px; }
+      15.58%  { x: 100px; y: 144px; }
+      27.27%  { x: 337px; y: 144px; }
+      29.22%  { x: 100px; y: 167px; }
+      40.91%  { x: 346px; y: 167px; }
+      62.34%  { x: 100px; y: 209px; }
+      71.43%  { x: 312px; y: 209px; }
+      72.73%  { x: 100px; y: 234px; }
+      81.82%  { x: 337px; y: 234px; }
+      83.12%  { x: 100px; y: 259px; }
+      90.26%  { x: 260px; y: 259px; }
+      91.56%  { x: 100px; y: 284px; }
+      100%    { x: 286px; y: 284px; }
     }
-    #cursorTrack {
-      animation: cursorMove 15.4s steps(1) 0s both;
-      transform-box: fill-box;
+    #cursor {
+      animation: cursorMove 15.4s steps(1) 0s both, cursorBlink 0.9s linear infinite;
     }
   ]]></style>
 
@@ -132,9 +127,7 @@
        continuously the whole time and rests at the end of the final line.
        #cursorTrack applies the position animation (translate from the base x=100,y=119);
        #cursor (nested inside) applies the independent blink animation. -->
-  <g id="cursorTrack">
-    <rect id="cursor" x="100" y="119" width="8" height="14" fill="#39d353"/>
-  </g>
+  <rect id="cursor" x="100" y="119" width="8" height="14" fill="#39d353"/>
 
   <!-- ===== Reveal lines, typed character by character underneath ===== -->
   <g fill="#39d353" filter="url(#glow)" font-size="14">
