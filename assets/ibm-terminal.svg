@@ -69,21 +69,56 @@
        Base rect position in the markup is x=100 y=119; each keyframe below is expressed
        as a translate() offset from that base, matching the original keyTimes/values exactly. */
     @keyframes cursorMove {
-      0%      { x: 100px; y: 119px; }
-      3.25%   { x: 100px; y: 119px; }
-      13.64%  { x: 312px; y: 119px; }
-      15.58%  { x: 100px; y: 144px; }
-      27.27%  { x: 337px; y: 144px; }
-      29.22%  { x: 100px; y: 167px; }
-      40.91%  { x: 346px; y: 167px; }
-      62.34%  { x: 100px; y: 209px; }
-      71.43%  { x: 312px; y: 209px; }
-      72.73%  { x: 100px; y: 234px; }
-      81.82%  { x: 337px; y: 234px; }
-      83.12%  { x: 100px; y: 259px; }
-      90.26%  { x: 260px; y: 259px; }
-      91.56%  { x: 100px; y: 284px; }
-      100%    { x: 286px; y: 284px; }
+      0% { x: 100px; y: 119px; }
+      3.25% { x: 100px; y: 119px; }
+      4.98% { x: 135px; y: 119px; }
+      6.71% { x: 171px; y: 119px; }
+      8.45% { x: 206px; y: 119px; }
+      10.18% { x: 241px; y: 119px; }
+      11.91% { x: 277px; y: 119px; }
+      13.64% { x: 312px; y: 119px; }
+      15.58% { x: 312px; y: 119px; }
+      17.53% { x: 140px; y: 144px; }
+      19.48% { x: 179px; y: 144px; }
+      21.43% { x: 218px; y: 144px; }
+      23.37% { x: 258px; y: 144px; }
+      25.32% { x: 298px; y: 144px; }
+      27.27% { x: 337px; y: 144px; }
+      29.22% { x: 337px; y: 144px; }
+      31.17% { x: 141px; y: 167px; }
+      33.12% { x: 182px; y: 167px; }
+      35.06% { x: 223px; y: 167px; }
+      37.01% { x: 264px; y: 167px; }
+      38.96% { x: 305px; y: 167px; }
+      40.91% { x: 346px; y: 167px; }
+      62.34% { x: 346px; y: 167px; }
+      63.86% { x: 135px; y: 209px; }
+      65.37% { x: 171px; y: 209px; }
+      66.89% { x: 206px; y: 209px; }
+      68.4% { x: 241px; y: 209px; }
+      69.92% { x: 277px; y: 209px; }
+      71.43% { x: 312px; y: 209px; }
+      72.73% { x: 312px; y: 209px; }
+      74.25% { x: 140px; y: 234px; }
+      75.76% { x: 179px; y: 234px; }
+      77.28% { x: 218px; y: 234px; }
+      78.79% { x: 258px; y: 234px; }
+      80.3% { x: 298px; y: 234px; }
+      81.82% { x: 337px; y: 234px; }
+      83.12% { x: 337px; y: 234px; }
+      84.31% { x: 127px; y: 259px; }
+      85.5% { x: 153px; y: 259px; }
+      86.69% { x: 180px; y: 259px; }
+      87.88% { x: 207px; y: 259px; }
+      89.07% { x: 233px; y: 259px; }
+      90.26% { x: 260px; y: 259px; }
+      91.56% { x: 260px; y: 259px; }
+      92.97% { x: 131px; y: 284px; }
+      94.37% { x: 162px; y: 284px; }
+      95.78% { x: 193px; y: 284px; }
+      97.19% { x: 224px; y: 284px; }
+      98.59% { x: 255px; y: 284px; }
+      100% { x: 286px; y: 284px; }
     }
     #cursor {
       animation: cursorMove 15.4s steps(1) 0s both, cursorBlink 0.9s linear infinite;
