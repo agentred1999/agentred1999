@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-<a href="#"><img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ibm-terminal.gif" alt="IBM PC/AT terminal" width="700"/></a>
+<a href="#"><img src="https://raw.githubusercontent.com/agentred1999/agentred1999/main/assets/ibm-terminal.svg" alt="IBM PC/AT terminal" width="700"/></a>
 </div>
 
 <p align="center">
