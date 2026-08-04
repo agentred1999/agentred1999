@@ -143,12 +143,6 @@
   </g>
   <rect x="470" y="284" width="120" height="24" fill="none" stroke="#1f7a3d" stroke-width="1"/>
   <text x="482" y="300" fill="#2ea84a" font-size="10">PC/AT 5170</text>
-    <text x="480" y="220">  '----'</text>
-    <text x="480" y="235">  |####|</text>
-    <text x="480" y="250">  |####|</text>
-  </g>
-  <rect x="470" y="262" width="120" height="24" fill="none" stroke="#1f7a3d" stroke-width="1"/>
-  <text x="482" y="278" fill="#2ea84a" font-size="10">PC/AT 5170</text>
 
   <!-- Lower shell / control panel -->
   <rect x="30" y="520" width="640" height="60" rx="8" fill="url(#beige)" stroke="#8f8567" stroke-width="2"/>
