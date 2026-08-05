@@ -11,8 +11,8 @@
   <text x="20" y="30" class="hd">TOP LANGUAGES</text>
   <text x="20" y="60" class="lbl" fill="#00FF41">HTML</text>
   <rect x="150" y="49" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="49" width="212.0" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="60" class="lbl">84.8%</text>
+  <rect x="150" y="49" width="211.5" height="10" fill="#00FF41" rx="2"/>
+  <text x="410" y="60" class="lbl">84.6%</text>
   <text x="455" y="60" class="lbl" fill="#3fae55">5 repos</text>
   <text x="20" y="86" class="lbl" fill="#00FF41">Shell</text>
   <rect x="150" y="75" width="250" height="10" fill="#1a2b1a" rx="2"/>
@@ -36,7 +36,7 @@
   <text x="455" y="164" class="lbl" fill="#3fae55">1 repos</text>
   <text x="20" y="190" class="lbl" fill="#00FF41">Python</text>
   <rect x="150" y="179" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="179" width="1.8" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="190" class="lbl">0.7%</text>
+  <rect x="150" y="179" width="2.4" height="10" fill="#00FF41" rx="2"/>
+  <text x="410" y="190" class="lbl">0.9%</text>
   <text x="455" y="190" class="lbl" fill="#3fae55">1 repos</text>
 </svg>
