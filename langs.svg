@@ -11,32 +11,32 @@
   <text x="20" y="30" class="hd">TOP LANGUAGES</text>
   <text x="20" y="60" class="lbl" fill="#00FF41">HTML</text>
   <rect x="150" y="49" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="49" width="211.5" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="60" class="lbl">84.6%</text>
+  <rect x="150" y="49" width="209.6" height="10" fill="#00FF41" rx="2"/>
+  <text x="410" y="60" class="lbl">83.9%</text>
   <text x="455" y="60" class="lbl" fill="#3fae55">5 repos</text>
-  <text x="20" y="86" class="lbl" fill="#00FF41">Shell</text>
+  <text x="20" y="86" class="lbl" fill="#00FF41">CSS</text>
   <rect x="150" y="75" width="250" height="10" fill="#1a2b1a" rx="2"/>
   <rect x="150" y="75" width="11.9" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="86" class="lbl">4.8%</text>
-  <text x="455" y="86" class="lbl" fill="#3fae55">1 repos</text>
-  <text x="20" y="112" class="lbl" fill="#00FF41">CSS</text>
+  <text x="410" y="86" class="lbl">4.7%</text>
+  <text x="455" y="86" class="lbl" fill="#3fae55">4 repos</text>
+  <text x="20" y="112" class="lbl" fill="#00FF41">Shell</text>
   <rect x="150" y="101" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="101" width="11.7" height="10" fill="#00FF41" rx="2"/>
+  <rect x="150" y="101" width="11.8" height="10" fill="#00FF41" rx="2"/>
   <text x="410" y="112" class="lbl">4.7%</text>
-  <text x="455" y="112" class="lbl" fill="#3fae55">4 repos</text>
+  <text x="455" y="112" class="lbl" fill="#3fae55">2 repos</text>
   <text x="20" y="138" class="lbl" fill="#00FF41">JavaScript</text>
   <rect x="150" y="127" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="127" width="8.4" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="138" class="lbl">3.4%</text>
+  <rect x="150" y="127" width="10.2" height="10" fill="#00FF41" rx="2"/>
+  <text x="410" y="138" class="lbl">4.1%</text>
   <text x="455" y="138" class="lbl" fill="#3fae55">5 repos</text>
   <text x="20" y="164" class="lbl" fill="#00FF41">TypeScript</text>
   <rect x="150" y="153" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="153" width="4.2" height="10" fill="#00FF41" rx="2"/>
-  <text x="410" y="164" class="lbl">1.7%</text>
+  <rect x="150" y="153" width="4.1" height="10" fill="#00FF41" rx="2"/>
+  <text x="410" y="164" class="lbl">1.6%</text>
   <text x="455" y="164" class="lbl" fill="#3fae55">1 repos</text>
   <text x="20" y="190" class="lbl" fill="#00FF41">Python</text>
   <rect x="150" y="179" width="250" height="10" fill="#1a2b1a" rx="2"/>
-  <rect x="150" y="179" width="2.4" height="10" fill="#00FF41" rx="2"/>
+  <rect x="150" y="179" width="2.3" height="10" fill="#00FF41" rx="2"/>
   <text x="410" y="190" class="lbl">0.9%</text>
   <text x="455" y="190" class="lbl" fill="#3fae55">1 repos</text>
 </svg>
