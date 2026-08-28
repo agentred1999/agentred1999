@@ -12,7 +12,7 @@
 
   <text x="20" y="65" class="val" font-size="28">0</text>
   <text x="90" y="60" class="lbl">day current streak</text>
-  <text x="90" y="76" class="lbl" fill="#12a83a">Aug 10, 2026 → Aug 12, 2026</text>
+  <text x="90" y="76" class="lbl" fill="#12a83a">Aug 27, 2026 → Aug 27, 2026</text>
 
   <line x1="20" y1="92" x2="440" y2="92" stroke="#1a2b1a"/>
 
