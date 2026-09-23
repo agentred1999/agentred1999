@@ -9,7 +9,6 @@
   </style>
   <rect class="bg" width="729" height="151" rx="6"/>
   <text x="20" y="18" class="hd">THE LAST 365 DAYS</text>
-  <rect x="30" y="56" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2025-09-23: 0</title></rect>
   <rect x="30" y="69" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2025-09-24: 0</title></rect>
   <rect x="30" y="82" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2025-09-25: 0</title></rect>
   <rect x="30" y="95" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2025-09-26: 0</title></rect>
@@ -347,7 +346,7 @@
   <rect x="654" y="43" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-24: 0</title></rect>
   <rect x="654" y="56" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-25: 0</title></rect>
   <rect x="654" y="69" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-26: 0</title></rect>
-  <rect x="654" y="82" width="11" height="11" rx="2" fill="#00FF41" opacity="0.35"><title>2026-08-27: 2</title></rect>
+  <rect x="654" y="82" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-27: 0</title></rect>
   <rect x="654" y="95" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-28: 0</title></rect>
   <rect x="654" y="108" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-29: 0</title></rect>
   <rect x="667" y="30" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-08-30: 0</title></rect>
@@ -368,10 +367,11 @@
   <rect x="693" y="43" width="11" height="11" rx="2" fill="#00FF41" opacity="0.35"><title>2026-09-14: 4</title></rect>
   <rect x="693" y="56" width="11" height="11" rx="2" fill="#00FF41" opacity="0.35"><title>2026-09-15: 1</title></rect>
   <rect x="693" y="69" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-16: 0</title></rect>
-  <rect x="693" y="82" width="11" height="11" rx="2" fill="#00FF41" opacity="0.55"><title>2026-09-17: 6</title></rect>
+  <rect x="693" y="82" width="11" height="11" rx="2" fill="#00FF41" opacity="0.35"><title>2026-09-17: 5</title></rect>
   <rect x="693" y="95" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-18: 0</title></rect>
   <rect x="693" y="108" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-19: 0</title></rect>
   <rect x="706" y="30" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-20: 0</title></rect>
   <rect x="706" y="43" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-21: 0</title></rect>
   <rect x="706" y="56" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-22: 0</title></rect>
+  <rect x="706" y="69" width="11" height="11" rx="2" fill="#00FF41" opacity="0.08"><title>2026-09-23: 0</title></rect>
 </svg>
